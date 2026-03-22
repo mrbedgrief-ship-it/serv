@@ -1,0 +1,37 @@
+CRIPCRAFT LOCAL LOGIN FIX
+=========================
+
+1. WHAT FILE WAS CHANGED
+- server/template/server.properties
+- scripts/start-cripcraft.bat
+- scripts/check-files.ps1
+- launcher/CripCraftLauncher.ps1
+- README_FIRST.txt
+- README.md
+- STATUS.md
+
+2. WHAT WAS CHANGED
+- The setting online-mode was changed to false for LOCAL TESTING.
+- The start script now forces server/runtime/server.properties to use online-mode=false before every launch.
+- The launcher and file checker now warn you if local login mode is not ready.
+
+3. WHAT YOU SHOULD LAUNCH FIRST
+- First launch: scripts/setup.bat
+- Then launch: launcher/start-launcher.bat
+- In the launcher, click Check Files, then Play.
+
+4. WHAT MINECRAFT ADDRESS YOU SHOULD ENTER
+- First try: localhost
+
+5. SHOULD YOU USE localhost OR 127.0.0.1?
+- Use localhost first.
+- If localhost does not work, use 127.0.0.1.
+
+6. WHAT TO DO IF YOU STILL GET THE SAME ERROR
+- Close Minecraft.
+- Close the CripCraft server window.
+- Start the server again with launcher/start-launcher.bat -> Play.
+- Open server/runtime/server.properties and make sure it says exactly: online-mode=false
+- Try localhost again.
+- If it still fails, try 127.0.0.1.
+- Make sure you are not accidentally joining another server from a different folder.
