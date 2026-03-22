@@ -1,0 +1,33 @@
+{
+  "minecraft_version": "1.20.1",
+  "forge_version": "47.4.10",
+  "java_version": "17",
+  "shared_required": [
+    {
+      "name": "Balm",
+      "filename": "balm-forge-1.20.1-7.3.38-all.jar",
+      "download_page": "https://modrinth.com/mod/balm/version/7.3.38%2Bforge-1.20.1",
+      "notes": "Required library for Waystones. Put this exact jar into mods/shared/."
+    },
+    {
+      "name": "Waystones",
+      "filename": "waystones-forge-1.20.1-14.1.16.jar",
+      "download_page": "https://modrinth.com/mod/waystones/version/14.1.16%2Bforge-1.20.1",
+      "notes": "Teleport/waypoint mod used by the CripCraft hub and zone. Put this exact jar into mods/shared/."
+    }
+  ],
+  "client_only_optional": [
+    {
+      "name": "Jade",
+      "filename": "Jade-1.20.1-Forge-11.13.1.jar",
+      "download_page": "https://modrinth.com/mod/jade/version/9gf6jOO0",
+      "notes": "Optional but recommended client tooltip helper. Put this jar into mods/client-only/ and later into your Minecraft mods folder."
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "filename": "jei-1.20.1-forge-15.20.0.128.jar",
+      "download_page": "https://modrinth.com/mod/jei/version/MdKE2PdF",
+      "notes": "Optional but recommended recipe browser. Put this jar into mods/client-only/ and later into your Minecraft mods folder."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+CripCraft Future Rank Scaffold
+==============================
+
+This file is ONLY a scaffold.
+There is NO real store or payment system in this prototype.
+
+Planned ranks:
+1. Player
+2. Crip
+3. Neon
+4. Legend
+5. Overlord
+
+Possible future perks:
+- cosmetic hub flair
+- extra home/warp slots
+- colored chat prefix
+- extra backpack cosmetics later
+- supporter-only lobby effects later
+
+Not implemented now:
+- checkout flow
+- Tebex / web store
+- payment gateway
+- automatic rank sync
