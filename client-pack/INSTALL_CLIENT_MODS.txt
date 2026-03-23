@@ -1,9 +1,0 @@
-CRIPCRAFT CLIENT MODS
-=====================
-
-1. Install Forge client 1.20.1-47.4.10 first.
-2. Open your Minecraft mods folder:
-   %APPDATA%/.minecraft/mods/
-3. Copy everything from this folder into that Minecraft mods folder.
-4. Turn shaders OFF before testing.
-5. Launch the Forge 1.20.1 profile.
