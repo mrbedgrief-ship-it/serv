@@ -1,0 +1,7 @@
+TURN SHADERS OFF
+================
+
+For this prototype:
+- Do NOT use shader packs.
+- Do NOT use OptiFine or Iris unless you know exactly what you are doing.
+- If the screen looks gray, broken, or shows shader errors, turn shaders OFF and try again.
