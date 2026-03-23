@@ -1,0 +1,12 @@
+CRIPCRAFT CLIENT SETUP
+======================
+
+The CripCraft launcher uses Prism Launcher.
+You do not need to build a client manually.
+
+What still matters:
+1. Put the shared required mod jars into `mods/shared/`.
+2. Put optional client helper mods into `mods/client-only/`.
+3. Run `scripts/setup.bat` or `scripts/repair.bat`.
+4. The scripts copy the jars into the playable Prism instance for you.
+5. Then open `launcher/start-launcher.bat` and click Play.
